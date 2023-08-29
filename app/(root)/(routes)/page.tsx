@@ -1,9 +1,11 @@
-import { UserButton } from '@clerk/nextjs'
+import { SearchInput } from '@/components/search-input'
 import React from 'react'
 
 const RootPage = () => {
   return (
-    <div><UserButton/></div>
+    <div>
+      <SearchInput/>
+    </div>
   )
 }
 
